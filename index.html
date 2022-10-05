@@ -14,6 +14,7 @@
         <style>
             body {
                 font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
+                padding-bottom: 700px;
             }
 
             .header {
@@ -35,23 +36,26 @@
                 align-items: center;
             }
 
-            img {
+            .lang-option, .logo2, .nav1 {
                 height: 4.0vw;
             }
 
-            .lang-option {
-                height: 4.0vw;
+            .hero-section {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
             }
 
             .hero-head {
-                text-align: center;
                 font-size: 3.4vw;
                 margin-bottom: 0;
+                text-align: left;
             }
 
             .hero-text {
-                text-align: center;
-                font-size: 1.3vw;
+                text-align: left;
+                font-size: 1.5vw;
                 margin-top: 4px;
             }
 
@@ -59,6 +63,9 @@
                 color: rgb(7, 169, 53);
             }
 
+            .slider-section {
+                height: 50vw;
+            }
 
         </style>
     </head>
@@ -66,11 +73,11 @@
         <div class="header">
             <div class="header-image-div">
                 <a href="index.html">
-                    <img src="images/footer-logo.png" alt="logo of naijahere website">
+                    <img class="logo2" src="images/footer-logo.png" alt="logo of naijahere website">
                 </a>
             </div>
             <div class="nav-area">
-                <img src="images/sandwich.png" alt="the website explore sandwich">
+                <img class="nav1" src="images/sandwich.png" alt="the website explore sandwich">
                 <img class="lang-option" src="images/lang.png" alt="choose a language option">
             </div>
         </div>
@@ -83,6 +90,10 @@
             <p class="hero-text">
                 Come see Nigeria! A country with immense cultural richness, fertile land <br> and beautiful people. Oh! Don't forget about the amazing jollof rice too.
             </p>
+        </div>
+        
+        <div>
+            <img class="slider-section" src="images/Kano.png" alt="image of kano traditional entourage">
         </div>
     </body>
 </html>
