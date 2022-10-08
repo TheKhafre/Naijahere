@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 12px 20px;
+    align-items: center;
+}
+
+.header-image-div {
+    max-width: 300px;
+}
+
+.nav-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lang-option, .logo2, .nav1 {
+    height: 4.0vw;
+}
